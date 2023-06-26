@@ -1,0 +1,2 @@
+# JavaScript-Slot-Machine-Game
+ This is a simple project made with JavaScript that simulates a classic slot machine game. The program can be run on the node.js terminal, providing users with a fun and engaging experience. It uses basic terminal codes and styles to create the game interface and JavaScript code to handle user input and control the behavior of the slot machine. The game logic involves using arrays to store possible reel symbols and random number generators to decide the outcome of each spin.

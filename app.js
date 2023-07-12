@@ -16,6 +16,7 @@ const SYMBOL_VALUES = {
   C: 3,
   D: 2,
 };
+
 //Deposit some money
 const deposit = () => {
   while (true) {
@@ -29,6 +30,7 @@ const deposit = () => {
     }
   }
 };
+
 //Determine number of lines to bet on
 const getNumberOfLines = () => {
   while (true) {
@@ -42,6 +44,7 @@ const getNumberOfLines = () => {
     }
   }
 };
+
 //Collect a bet amount
 const getBet = (balance, lines) => {
   while (true) {
@@ -55,6 +58,7 @@ const getBet = (balance, lines) => {
     }
   }
 };
+
 //Spin the slot machine
 const spin = () => {
   const symbols = [];
@@ -104,6 +108,7 @@ const printRows = (rows) => {
     console.log(rowString);
   }
 };
+
 //check if the user won
 const getWinnings = (rows, bet, lines) => {
   let winnings = 0;
@@ -126,6 +131,7 @@ const getWinnings = (rows, bet, lines) => {
 
   return winnings;
 };
+
 //give the user their winnings
 //play again
 const game = () => {
